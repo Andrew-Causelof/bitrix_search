@@ -1,6 +1,6 @@
 import React from "react";
 
-function QueryItem() {
+function QueryResultItem() {
   return (
     <div className="search_results_item search_results_item-post">
       <a className="post post-search" href="post-full.html">
@@ -70,4 +70,4 @@ function QueryItem() {
   );
 }
 
-export default QueryItem;
+export default QueryResultItem;
