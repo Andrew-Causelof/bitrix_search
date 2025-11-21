@@ -1,0 +1,16 @@
+#react-search-component .search {
+  z-index: 10;
+}
+#search-results {
+  position: relative;
+}
+
+.search_results_box.show {
+  position: fixed;
+  top: 60px;
+  width: 100%;
+  max-width: 632px;
+  max-height: 100vh;
+  overflow-y: auto;
+  z-index: 444;
+}
